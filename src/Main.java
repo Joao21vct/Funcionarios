@@ -4,7 +4,7 @@ public class Main {
         Funcionarios funcionarios2 = new Funcionarios("Lucas", 1395048329, "1929280423", "11-01-2022", "01-11-2022", "tarde");
         Funcionarios funcionarios3 = new Funcionarios("Zé pier", 1209393811, "1109709023", "02-09-2022", "10-09-2022", "noite");
 
-        Funcionarios[] minhaLista = new Funcionarios[2];
+        Funcionarios[] minhaLista = new Funcionarios[3];
         minhaLista[0] = funcionarios1;
         minhaLista[1] = funcionarios2;
         minhaLista[2] = funcionarios3;

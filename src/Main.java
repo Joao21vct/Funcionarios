@@ -8,5 +8,9 @@ public class Main {
         minhaLista[0] = funcionarios1;
         minhaLista[1] = funcionarios2;
         minhaLista[2] = funcionarios3;
+
+        for (int i = 0; i < minhaLista.length; i++){
+            System.out.println(minhaLista[i].toString());
+        }
     }
 }

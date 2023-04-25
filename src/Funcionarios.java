@@ -41,5 +41,15 @@ public class Funcionarios {
         return periodo;
     }
 
-
+    @Override
+    public String toString() {
+        return "Funcionarios{" +
+                "nome='" + nome + '\'' +
+                ", cpf=" + cpf +
+                ", tel='" + tel + '\'' +
+                ", dataNasc='" + dataNasc + '\'' +
+                ", dataAg='" + dataAg + '\'' +
+                ", periodo='" + periodo + '\'' +
+                '}';
+    }
 }
